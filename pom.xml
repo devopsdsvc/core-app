@@ -27,16 +27,16 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
+      <id>core-releases</id>
+      <name>core-releases</name>
+      <url>http://54.177.243.80:8081/repository/core-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>core-snapshots</id>
+      <name>core-snapshots</name>
+      <url>http://54.177.243.80:8081/repository/core-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
