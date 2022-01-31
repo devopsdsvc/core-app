@@ -7,7 +7,7 @@
       <password>core-user</password>
     </server> 
     <server>
-      <id>maven-snapshots</id>
+      <id>core-snapshots</id>
       <username>core-user</username>
       <password>core-user</password>
     </server>
